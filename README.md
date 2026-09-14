@@ -28,6 +28,17 @@ Landing page para una clínica felina ficticia, con diseño responsive y formula
 
 ---
 
+### 3. 🎓 Sistema de Gestión Académica (JavaScript)
+
+**Descripción:**  
+Sistema de gestión académica por terminal. Permite registrar estudiantes, gestionar notas, calcular promedios, detectar patrones en nombres y más.
+
+**Tecnologías:** JavaScript (Node.js), readline
+
+**Enlace:** [`03-javascript/gestion-academica/`](./03-javascript/gestion-academica/)
+
+---
+
 ## 📂 Estructura
 
 | Carpeta | Contenido |
