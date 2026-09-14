@@ -1,0 +1,18 @@
+# Archivos temporales
+.lesshst
+*.swp
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Entornos
+.env
