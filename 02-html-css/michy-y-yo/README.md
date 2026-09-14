@@ -36,4 +36,8 @@ Landing page para una clínica felina ficticia, con diseño moderno, responsive 
 2. O usa un servidor local:
    ```bash
    python3 -m http.server 8000
-![alt text](image.png)
+   
+## 📝 Autor
+Jaime Llastarry Jansana
+📅 Septiembre 2026
+
