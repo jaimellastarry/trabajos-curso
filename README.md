@@ -6,31 +6,25 @@ Recopilación de ejercicios y proyectos realizados durante el curso de **Fundame
 
 ## 🎯 Proyectos destacados
 
-### 1. 🗒️ Gestor de Notas Personalizado
+### 1. 🗒️ Gestor de Notas Personalizado (Python)
 
 **Descripción:**  
-Aplicación de terminal para gestionar notas personales. Permite añadir, ver, buscar, eliminar y filtrar notas por categoría.
+Aplicación de terminal para gestionar notas personales.
 
-**Tecnologías:**
-- Python 3.14
-- Colorama (colores en terminal)
+**Tecnologías:** Python 3.14, Colorama
 
-**Características:**
-- ✅ Menú interactivo en bucle
-- ✅ Añadir notas con título, contenido y categoría
-- ✅ Sobrescritura con confirmación
-- ✅ Búsqueda por palabra clave
-- ✅ Eliminación con confirmación
-- ✅ Filtrado por categoría
-- ✅ Colores en terminal
-- ✅ Manejo de errores con `try/except`
+**Enlace:** [`01-python/gestor_notas/`](./01-python/gestor_notas/)
 
-**Archivos:**
-- [`gestor_notas.py`](./01-python/gestor_notas/gestor_notas.py)
-- [`README.md`](./01-python/gestor_notas/README.md)
-- [`capturas/`](./01-python/gestor_notas/capturas/)
+---
 
-**Autor:** Jaime Llastarry Jansana
+### 2. 🐱 Michy y yo (HTML/CSS)
+
+**Descripción:**  
+Landing page para una clínica felina ficticia, con diseño responsive y formulario interactivo.
+
+**Tecnologías:** HTML5, CSS3, JavaScript, Font Awesome
+
+**Enlace:** [`02-html-css/michy-y-yo/`](./02-html-css/michy-y-yo/)
 
 ---
 
@@ -58,4 +52,4 @@ Aplicación de terminal para gestionar notas personales. Permite añadir, ver, b
 
 ## 📜 Licencia
 
-Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+Este repositorio está bajo la licencia **MIT**. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
