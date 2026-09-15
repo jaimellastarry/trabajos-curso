@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Jaime Llastarry Jansana</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 900px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+        }
+        .proyectos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .proyecto {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 2rem;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .proyecto:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .proyecto h2 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        .proyecto p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+            opacity: 0.8;
+        }
+        .icono { font-size: 2.5rem; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Trabajos del Curso</h1>
+        <p>Portafolio de proyectos - Jaime Llastarry Jansana</p>
+        
+        <div class="proyectos">
+            <a href="04-html-css-basico/viaje-paris/index.html" class="proyecto">
+                <div class="icono">🇫🇷</div>
+                <h2>Viaje a París</h2>
+                <p>Mi primera web (HTML básico)</p>
+            </a>
+            
+            <a href="02-html-css/michy-y-yo/index.html" class="proyecto">
+                <div class="icono">🐱</div>
+                <h2>Michy y yo</h2>
+                <p>Clínica felina (HTML/CSS)</p>
+            </a>
+            
+            <a href="01-python/gestor_notas/README.md" class="proyecto">
+                <div class="icono">🗒️</div>
+                <h2>Gestor de Notas</h2>
+                <p>Python (ver README)</p>
+            </a>
+            
+            <a href="03-javascript/gestion-academica/README.md" class="proyecto">
+                <div class="icono">🎓</div>
+                <h2>Gestión Académica</h2>
+                <p>JavaScript (ver README)</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
